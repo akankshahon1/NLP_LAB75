@@ -4,6 +4,79 @@
 #Batch:B4
 #Assignment name:Text processing using sentence detection,stop word removal,lemmitization,pos tagging
 
+#sentence detection
+import spacy
+nlp = spacy.load("en_core_web_sm") 
+about_text = (
+    "If men were rational in their conduct, that is to say, if they acted in the way most likely to bring about the ends that they deliberately desire, intelligence would be enough to make the world almost a paradise. "
+    "In the main, what is in the long run advantageous to one man is also advantageous to another. But men are actuated by passions which distort their view; feeling an impulse to injure others, they persuade themselves that it is to their interest to do so. "
+    "They will not, therefore, act in the way which is in fact to their own interest unless they are actuated by generous impulses which make them indifferent to their own interest."
+)
+about_doc = nlp(about_text)
+sentences = list(about_doc.sents)
+len(sentences)
+
+for sentence in sentences:
+    print(f"{sentence[:5]}...")
+
+
+#output:
+# If men were rational in...
+# In the main, what...
+# But men are actuated by...
+# They will not, therefore...
+
+
+#tokenization
+import spacy
+nlp = spacy.load("en_core_web_sm")
+about_text = (
+    "Like other forms of writing, paragraphs follow a standard three-part structure with a beginning middle, and end."
+    "These parts are the topic sentence, development and support, and conclusion. "
+)
+about_doc = nlp(about_text)
+
+for token in about_doc:
+    print (token, token.idx)
+#output:
+# Like 0
+# other 5
+# forms 11
+# of 17
+# writing 20
+# , 27
+# paragraphs 29
+# follow 40
+# a 47
+# standard 49
+# three 58
+# - 63
+# part 64
+# structure 69
+# with 79
+# a 84
+# beginning 86
+# middle 96
+# , 102
+# and 104
+# end 108
+# . 111
+# These 112
+# parts 118
+# are 124
+# the 128
+# topic 132
+# sentence 138
+# , 146
+# development 148
+# and 160
+# support 164
+# , 171
+# and 173
+# conclusion 177
+# . 187
+
+
 
 #Lemmatization
 #import spacy
@@ -54,7 +127,7 @@ for token in about_doc:
  EXPLANATION: {spacy.explain(token.tag_)}"""
     )
      
-Output:
+#Output:
 
 #       TOKEN: Paragraphs
  
