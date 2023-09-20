@@ -1,0 +1,2 @@
+"Hello, how are you?", "How do you do?", 
+   "Hey what are you doing? yes you What are you doing?"
