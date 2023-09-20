@@ -1,5 +1,0 @@
-git config --list
-git config --global --unset user.email "user email"
-git config --global user.email "your mail"
-git congif --global user.name "your name"
-
