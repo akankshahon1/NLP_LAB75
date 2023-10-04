@@ -1,5 +1,5 @@
 #Assignment no 2
-#Name:Akanksha Hon
+#Name:Akansha Hon
 #Roll no:75
 #Batch:B4
 #Assignment name:Implementation of Bag of words to find the frequency of the tokens
