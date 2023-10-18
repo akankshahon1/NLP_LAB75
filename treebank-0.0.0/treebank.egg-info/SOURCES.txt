@@ -1,0 +1,8 @@
+README.md
+setup.py
+treebank/__init__.py
+treebank/version.py
+treebank.egg-info/PKG-INFO
+treebank.egg-info/SOURCES.txt
+treebank.egg-info/dependency_links.txt
+treebank.egg-info/top_level.txt
