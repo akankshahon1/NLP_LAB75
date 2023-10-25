@@ -42,7 +42,7 @@ for i in file.readlines():
         counter += 1
         print()
         
-        
+ #output    
 '''('While',)
 ('unigram',)
 ('model',)
@@ -102,6 +102,8 @@ for i in file.readlines():
 ('values',)
 ('of',)
 ('n.',)
+
+#bigram model
 ('While', 'unigram')
 ('unigram', 'model')
 ('model', 'sentences')
@@ -160,6 +162,7 @@ for i in file.readlines():
 ('possible', 'values')
 ('values', 'of')
 ('of', 'n.')
+#tri-gram model
 ('While', 'unigram', 'model')
 ('unigram', 'model', 'sentences')
 ('model', 'sentences', 'will')
@@ -217,6 +220,8 @@ for i in file.readlines():
 ('all', 'possible', 'values')
 ('possible', 'values', 'of')
 ('values', 'of', 'n.')
+
+#text file input
 For sentence 1 , trigrams are: 
 ('Embedding', 'is', 'a')
 ('is', 'a', 'language')
