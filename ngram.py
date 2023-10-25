@@ -1,5 +1,8 @@
+'''Name:Akanksha hon
+Batch:B4
+Roll no:75
+Pract no 3: Generating the n gram model using nltk'''
 from nltk import ngrams
-
 
 from nltk.util import ngrams
 #unigram model
