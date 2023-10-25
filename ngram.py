@@ -365,5 +365,4 @@ For sentence 9 , trigrams are:
 ('the', 'surrounding', 'context')
 ('surrounding', 'context', 'words\n')
 
-For sentence 1 , trigrams are: 
 '''
