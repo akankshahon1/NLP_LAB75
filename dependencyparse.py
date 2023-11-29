@@ -1,3 +1,7 @@
+""" Name: Akanksha Hon
+    Roll no:75
+    Batch:B-4
+    Practical : Dependancy Parsing using spacy"""
 import spacy
 nlp = spacy.load("en_core_web_sm")
 piano_text = "My school starts at 8:00.We always eat dinner together.They take the bus to work. He doesn't like vegetables."
